@@ -17,6 +17,7 @@ public class Main {
 
 		System.out.println("Response Status Code: " + httpResponse.statusCode());
 		System.out.println("Response: " + httpResponse.body());
+		System.out.println("HTTP Version: " + httpResponse.version());
 
 		httpResponse.headers().map().forEach((key, value) -> System.out.println(key + ": " + value));
 	}

@@ -1,0 +1,19 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.reactor</groupId>
+	<artifactId>Reactor</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>Reactor</name>
+	<description>Reactor</description>
+	<!-- https://mvnrepository.com/artifact/io.projectreactor/reactor-core -->
+	<dependencies>
+		<!-- Reactor Core for reactive programming -->
+		<dependency>
+			<groupId>io.projectreactor</groupId>
+			<artifactId>reactor-core</artifactId>
+			<version>3.6.11</version>
+		</dependency>
+	</dependencies>
+</project>

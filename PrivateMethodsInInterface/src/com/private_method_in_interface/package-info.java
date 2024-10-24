@@ -1,0 +1,1 @@
+package com.private_method_in_interface;
